@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "bombamod",
+  "version": "${version}",
+  "name": "BombaMod",
+  "description": "Menu z listą graczy, ich ekwipunkiem i przyciskiem akcji. Otwierane klawiszem G.",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.bombamod.BombaMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
